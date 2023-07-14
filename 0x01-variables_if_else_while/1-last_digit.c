@@ -3,25 +3,21 @@
 #include <stdio.h>
 
 /**
- * main - prints the last digit of n and prints out whether it is
- * greater than 5, 0, or less than 6
- * Return: 0
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-	int lastDigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	lastDigit = n % 10;
-	printf("Last digit of %i is %i and is ", n, lastDigit);
-	if (lastDigit > 5)
-		printf("greater than 5\n");
-	else if (lastDigit == 0)
-		printf("0\n");
-	else
-		printf("less than 6 and not 0\n");
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
 }
