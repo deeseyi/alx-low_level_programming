@@ -1,96 +1,15 @@
-# 0x04. C - functions and nested loops
-
-## 0-isupper.c
-Function that checks for uppercase character.
-
-- Prototype: int _isupper(int c);
-- Returns 1 if c is uppercase
-- Returns 0 otherwise
-
-## 1-isdigit.c
-Function that checks for a digit (0 through 9).
-
-- Prototype: int _isdigit(int c);
-- Returns 1 if c is a digit
-- Returns 0 otherwise
-
-## 2-mul.c
-Function that multiplies two integers.
-
-- Prototype: int mul(int a, int b);
-
-## 3-print_numbers.c
-A Function that prints the numbers, from 0 to 9, followed by a new line.
-
-- Prototype: void print_numbers(void);
-- Can only use _putchar twice in your code
-
-
-## 4-print_most_numbers.c
-Write a function that prints the numbers, from 0 to 9, followed by a new line.
-
-- Prototype: void print_most_numbers(void);
-- Do not print 2 and 4
-- Can only use _putchar twice in your code
-
-## 5-more_numbers.c
-Write a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
-
-- Prototype: void more_numbers(void);
-- Can only use _putchar three times in your code
-
-## 6-print_line.c
-Write a function that draws a straight line in the terminal.
-
-- Prototype: void print_line(int n);
-- Can only use _putchar function to print
-- Where n is the number of times the character _ should be printed
-- The line should end with a \n
-- If n is 0 or less, the function should only print \n
-
-## 7-print_diagonal.c
-Write a function that draws a diagonal line on the terminal.
-
-- Prototype: void print_diagonal(int n);
-- can only use _putchar function to print
-- Where n is the number of times the character \ should be printed
-- The diagonal should end with a \n
-- If n is 0 or less, the function should only print a \n
-
-## 8-print_square.c
-Write a function that prints a square, followed by a new line.
-
-- Prototype: void print_square(int size);
-- can only use _putchar function to print
-- Where size is the size of the square
-- If size is 0 or less, the function should print only a new line
-- Use the character # to print the square
-
-## 9-fizz_buzz.c
-A program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
-
-- Each number or word should be separated by a space
-
-## 10-print_triangle.c
-Write a function that prints a triangle, followed by a new line.
-
-- Prototype: void print_triangle(int size);
-- can only use _putchar function to print
-- Where size is the size of the triangle
-- If size is 0 or less, the function should print only a new line
-- Use the character # to print the triangle
-
-## 100-prime_factor.c
-Write a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
-
-- allowed to use the standard library
-- program will be compiled with this command: gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-prime_factor.c -o 100-prime_factor -lm
-
-## 101-print_number.c
-A function that prints an integer.
-
-- Prototype: void print_number(int n);
-- can only use _putchar function to print
-- not allowed to use long
-- not allowed to use arrays or pointers
-- not allowed to hard-code special values
+| Filename | Description |
+| -------- | ----------- |
+| `0-isupper.c` | Chekcs for uppercase character |
+| `1-isdigit.c` | Checks for a digit (`0` through `9`) |
+| `2-mul.c` | Multiplies two integers |
+| `3-print_numbers.c` | Prints the numbers, from `0` to `9` |
+| `4-print_most_numbers.c` | Prints the numbers, from `0` to `9`, except `2` and `4` |
+| `5-more_numbers.c` | Prints 10 times the numbers, from `0` to `14` |
+| `6-print_line.c` | Draws a straight line in the terminal |
+| `7-print_diagonal.c` | Draws a diagonal line in the terminal |
+| `8-print_square.c` | Prints a sqaure |
+| `9-fizz_buzz.c` | Prints Fizz-Buzz test |
+| `10-print_triangle.c` | Prints a triangle |
+| `100-prime_factor.c` | Finds and prints the largest prime factor of the number `612852475143` |
+| `101-print_number.c` | Prints an integer |
